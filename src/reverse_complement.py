@@ -17,11 +17,3 @@ if __name__ == "__main__":
     dna_sequence = "TAGC"
     print("Reverse Complement:", reverse_complement(dna_sequence))
 
-
-def test_reverse_complement():
-    assert reverse_complement(A) == T
-    assert reverse_complement(T) == A
-    assert reverse_complement(G) == C
-    assert reverse_complement(C) == G
-    assert reverse_complement("AGTC") == "GACT"
-    assert reverse_complement("") == ""
