@@ -1,4 +1,4 @@
-from reverse_complement import reverse_complement
+from reverse_complement import reverse_complement, A, G, T, C
 
 def test_reverse_complement():
     assert reverse_complement(A) == T
