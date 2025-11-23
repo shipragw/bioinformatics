@@ -7,8 +7,12 @@ def finding_subset(str1, str2):
         point = str1.find(str2, start)
         if point == -1:
             break
-        locations.append(point)
+        locations.append(point+1)
         start = point + 1
     return locations
 
 
+if __name__ == "__main__":
+    value = (finding_subset("", ""))
+    str_value = [str(v) for v in value]
+    print(" ".join(str_value))
